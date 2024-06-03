@@ -16,11 +16,14 @@ Please follow the installation instructions in the [mdBook Documentation](https:
 ## mdBook Quirks
 
 - Have to wrap certain elements in `<div id=""></div>` to be able to be referenced.
+  https://github.com/BilalM04/projectileSRS-mdbook/blob/f161644151831be02b66606552ba4b14f155e5c2/src/non-functional-req.md?plain=1#L4-L16
 - Cannot add captions to tables and images. Have to use `<p align="center">CAPTION</p>`.
+  https://github.com/BilalM04/projectileSRS-mdbook/blob/f161644151831be02b66606552ba4b14f155e5c2/src/table-of-symbols.md?plain=1#L47-L49
 - Mathjax LaTeX equations do not wrap similar to LaTeX (`$EQUATION$`) or HTML (`\(EQUATION\)`). mdBook syntax is `\\(EQUATION\\)` for inline and `\\[EQUATION\\]` for block equations.
 - Some elements of equations require an extra `\`. Ex. new line is `\\\`.
 - `\symbf` does not work in Mathjax LaTeX equations, have to use `\boldsymbol` instead.
 - Typical list syntax does not work inside tables in Markdown. Have to wrap in `<ul> <li>item1</li> <li>item2</li> </ul>`.
+  https://github.com/BilalM04/projectileSRS-mdbook/blob/f161644151831be02b66606552ba4b14f155e5c2/src/data-definitions.md?plain=1#L13
 - Accessible assets (Ex. images) need to be inside the `src` folder in order to be rendered. NOTE: There may be a way to use assets outside `src` through the `book.toml`
 - Sometimes there is very little space or no space at all between components. Added `</br>` to add extra space.
 - Need to add mathjax support in the `book.toml`. Not added by default.
