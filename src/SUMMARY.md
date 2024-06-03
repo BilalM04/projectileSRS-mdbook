@@ -36,4 +36,4 @@
 - [References](./references.md)
 - [Definitions Test](./definitions-test.md)
 - [Generated Example](./generated-example.md)
-- [Instance Models Alternate](./instance-models-2)
+- [Instance Models Alternate](./instance-models-2.md)
