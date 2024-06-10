@@ -302,7 +302,11 @@ gravAccelValue: The acceleration due to gravity is assumed to have the value pro
 
 This section focuses on the general equations and laws that Projectile is based on.
 
+<div align="center">
+
 ## Acceleration {#TM:acceleration}
+
+</div>
 
 |Refname    |TM:acceleration                                                                                                                                                                                                                                                 |
 |:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +316,11 @@ This section focuses on the general equations and laws that Projectile is based 
 |Source     |[accelerationWiki](#accelerationWiki)                                                                                                                                                                                                                           |
 |RefBy      |[GD:rectVel](#GD:rectVel)                                                                                                                                                                                                                                       |
 
+<div align="center">
+
 ## Velocity {#TM:velocity}
+
+</div>
 
 |Refname    |TM:velocity                                                                                                                                                                                                                              |
 |:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -326,7 +334,11 @@ This section focuses on the general equations and laws that Projectile is based 
 
 This section collects the laws and equations that will be used to build the instance models.
 
+<div align="center">
+
 ## Rectilinear (1D) velocity as a function of time for constant acceleration {#GD:rectVel}
+
+</div>
 
 |Refname    |GD:rectVel                                                                                                                                                                                                                                                                                                              |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -351,7 +363,11 @@ Performing the integration, we have the required equation:
 
 \\[v\text{(}t\text{)}={v^{\text{i}}}+{a^{c}} t\\]
 
+<div align="center">
+
 ## Rectilinear (1D) position as a function of time for constant acceleration {#GD:rectPos}
+
+</div>
 
 |Refname    |GD:rectPos                                                                                                                                                                                                                                                                                                                                                                          |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -380,7 +396,11 @@ Performing the integration, we have the required equation:
 
 \\[p\text{(}t\text{)}={p^{\text{i}}}+{v^{\text{i}}} t+\frac{{a^{c}} t^{2}}{2}\\]
 
+<div align="center">
+
 ## Velocity vector as a function of time for 2D motion under constant acceleration {#GD:velVec}
+
+</div>
 
 |Refname    |GD:velVec                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -397,7 +417,11 @@ For a two-dimensional Cartesian coordinate system ([A:twoDMotion](#twoDMotion) a
 
 \\[\boldsymbol{v}\text{(}t\text{)}=\begin{bmatrix}{{v_{\text{x}}}^{\text{i}}}+{{a_{\text{x}}}^{\text{c}}} t\\\\{{v_{\text{y}}}^{\text{i}}}+{{a_{\text{y}}}^{\text{c}}} t\end{bmatrix}\\]
 
+<div align="center">
+
 ## Position vector as a function of time for 2D motion under constant acceleration {#GD:posVec}
+
+</div>
 
 |Refname    |GD:posVec                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |:----------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -418,7 +442,11 @@ For a two-dimensional Cartesian coordinate system ([A:twoDMotion](#twoDMotion) a
 
 This section collects and defines all the data needed to build the instance models.
 
+<div align="center">
+
 ## Speed {#DD:vecMag}
+
+</div>
 
 |Refname    |DD:vecMag                                                                                                                                                                               |
 |:----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -431,7 +459,11 @@ This section collects and defines all the data needed to build the instance mode
 |Source     |--                                                                                                                                                                                      |
 |RefBy      |[DD:speedIY](#DD:speedIY) and [DD:speedIX](#DD:speedIX)                                                                                                                                 |
 
+<div align="center">
+
 ## \\(x\\)-component of initial velocity {#DD:speedIX}
+
+</div>
 
 |Refname    |DD:speedIX                                                                                                                                                                                                                                                                     |
 |:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -444,7 +476,11 @@ This section collects and defines all the data needed to build the instance mode
 |Source     |--                                                                                                                                                                                                                                                                             |
 |RefBy      |[IM:calOfLandingDist](#IM:calOfLandingDist)                                                                                                                                                                                                                                    |
 
+<div align="center">
+
 ## \\(y\\)-component of initial velocity {#DD:speedIY}
+
+</div>
 
 |Refname    |DD:speedIY                                                                                                                                                                                                                                                                     |
 |:----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -461,7 +497,11 @@ This section collects and defines all the data needed to build the instance mode
 
 This section transforms the problem defined in the [problem description](#Sec:ProbDesc) into one which is expressed in mathematical terms. It uses concrete symbols defined in the [data definitions](#Sec:DDs) to replace the abstract symbols in the models identified in [theoretical models](#Sec:TMs) and [general definitions](#Sec:GDs).
 
+<div align="center">
+
 ## Calculation of landing time {#IM:calOfLandingTime}
+
+</div>
 
 |Refname           |IM:calOfLandingTime                                                                                                                                                                                                                                                                                                                                             |
 |:-----------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -498,7 +538,11 @@ From [DD:speedIY](#DD:speedIY) (with \\({v^{\text{i}}}={v_{\text{launch}}}\\)) w
 
 \\[{t_{\text{flight}}}=\frac{2 {v_{\text{launch}}} \sin\left(θ\right)}{g}\\]
 
+<div align="center">
+
 ## Calculation of landing position {#IM:calOfLandingDist}
+
+</div>
 
 |Refname           |IM:calOfLandingDist                                                                                                                                                                                                                                                                                                                                           |
 |:-----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -531,7 +575,11 @@ Rearranging this gives us the required equation:
 
 \\[{p_{\text{land}}}=\frac{2 {v_{\text{launch}}}^{2} \sin\left(θ\right) \cos\left(θ\right)}{g}\\]
 
+<div align="center">
+
 ## Offset {#IM:offsetIM}
+
+</div>
 
 |Refname           |IM:offsetIM                                                                                                                                                                                                                                                                               |
 |:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -546,7 +594,11 @@ Rearranging this gives us the required equation:
 |Source            |--                                                                                                                                                                                                                                                                                        |
 |RefBy             |[IM:messageIM](#IM:messageIM), [FR:Output-Values](#outputValues), and [FR:Calculate-Values](#calcValues)                                                                                                                                                                                  |
 
+<div align="center">
+
 ## Output message {#IM:messageIM}
+
+</div>
 
 |Refname           |IM:messageIM                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |:-----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -798,21 +850,39 @@ This section contains the standard values that are used for calculations in Proj
 
 # References
 
-<div id="hibbeler2004">[1]: Hibbeler, R. C. <em>Engineering Mechanics: Dynamics</em>. Pearson Prentice Hall, 2004. Print.</div>
+<div id="hibbeler2004"></div>
 
-<div id="koothoor2013">[2]: Koothoor, Nirmitha. <em>A Document Driven Approach to Certifying Scientific Computing Software</em>. McMaster University, Hamilton, ON, Canada: 2013. Print.</div>
+[1]: Hibbeler, R. C. <em>Engineering Mechanics: Dynamics</em>. Pearson Prentice Hall, 2004. Print.
 
-<div id="parnasClements1986">[3]: Parnas, David L. and Clements, P. C. "A rational design process: How and why to fake it." <em>IEEE Transactions on Software Engineering</em>, vol. 12, no. 2, Washington, USA: February, 1986. pp. 251&ndash;257. Print.</div>
+<div id="koothoor2013"></div>
 
-<div id="smithKoothoor2016">[4]: Smith, W. Spencer and Koothoor, Nirmitha. "A Document-Driven Method for Certifying Scientific Computing Software for Use in Nuclear Safety Analysis." <em> Nuclear Engineering and Technology</em>, vol. 48, no. 2, April, 2016. <a href="http://www.sciencedirect.com/science/article/pii/S1738573315002582">http://www.sciencedirect.com/science/article/pii/S1738573315002582</a>. pp. 404&ndash;418.</div>
+[2]: Koothoor, Nirmitha. <em>A Document Driven Approach to Certifying Scientific Computing Software</em>. McMaster University, Hamilton, ON, Canada: 2013. Print.
 
-<div id="smithLai2005">[5]: Smith, W. Spencer and Lai, Lei. "A new requirements template for scientific computing." <em>Proceedings of the First International Workshop on Situational Requirements Engineering Processes - Methods, Techniques and Tools to Support Situation-Specific Requirements Engineering Processes, SREP'05</em>. Edited by PJ Agerfalk, N. Kraiem, and J. Ralyte, Paris, France: 2005. pp. 107&ndash;121. In conjunction with 13th IEEE International Requirements Engineering Conference,</div>
+<div id="parnasClements1986"></div>
 
-<div id="smithEtAl2007">[6]: Smith, W. Spencer, Lai, Lei, and Khedri, Ridha. "Requirements Analysis for Engineering Computation: A Systematic Approach for Improving Software Reliability." <em>Reliable Computing, Special Issue on Reliable Engineering Computation</em>, vol. 13, no. 1, February, 2007. <a href="https://doi.org/10.1007/s11155-006-9020-7">https://doi.org/10.1007/s11155-006-9020-7</a>. pp. 83&ndash;107.</div>
+[3]: Parnas, David L. and Clements, P. C. "A rational design process: How and why to fake it." <em>IEEE Transactions on Software Engineering</em>, vol. 12, no. 2, Washington, USA: February, 1986. pp. 251&ndash;257. Print.
 
-<div id="accelerationWiki">[7]: Wikipedia Contributors. <em>Acceleration</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Acceleration">https://en.wikipedia.org/wiki/Acceleration</a>.</div>
+<div id="smithKoothoor2016"></div>
 
-<div id="cartesianWiki">[8]: Wikipedia Contributors. <em>Cartesian coordinate system</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system">https://en.wikipedia.org/wiki/Cartesian_coordinate_system</a>.</div>
+[4]: Smith, W. Spencer and Koothoor, Nirmitha. "A Document-Driven Method for Certifying Scientific Computing Software for Use in Nuclear Safety Analysis." <em> Nuclear Engineering and Technology</em>, vol. 48, no. 2, April, 2016. <a href="http://www.sciencedirect.com/science/article/pii/S1738573315002582">http://www.sciencedirect.com/science/article/pii/S1738573315002582</a>. pp. 404&ndash;418.
 
-<div id="velocityWiki">[9]: Wikipedia Contributors. <em>Velocity</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Velocity">https://en.wikipedia.org/wiki/Velocity</a>.</div>
+<div id="smithLai2005"></div>
+
+[5]: Smith, W. Spencer and Lai, Lei. "A new requirements template for scientific computing." <em>Proceedings of the First International Workshop on Situational Requirements Engineering Processes - Methods, Techniques and Tools to Support Situation-Specific Requirements Engineering Processes, SREP'05</em>. Edited by PJ Agerfalk, N. Kraiem, and J. Ralyte, Paris, France: 2005. pp. 107&ndash;121. In conjunction with 13th IEEE International Requirements Engineering Conference,
+
+<div id="smithEtAl2007"></div>
+
+[6]: Smith, W. Spencer, Lai, Lei, and Khedri, Ridha. "Requirements Analysis for Engineering Computation: A Systematic Approach for Improving Software Reliability." <em>Reliable Computing, Special Issue on Reliable Engineering Computation</em>, vol. 13, no. 1, February, 2007. <a href="https://doi.org/10.1007/s11155-006-9020-7">https://doi.org/10.1007/s11155-006-9020-7</a>. pp. 83&ndash;107.
+
+<div id="accelerationWiki"></div>
+
+[7]: Wikipedia Contributors. <em>Acceleration</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Acceleration">https://en.wikipedia.org/wiki/Acceleration</a>.
+
+<div id="cartesianWiki"></div>
+
+[8]: Wikipedia Contributors. <em>Cartesian coordinate system</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system">https://en.wikipedia.org/wiki/Cartesian_coordinate_system</a>.
+
+<div id="velocityWiki"></div>
+
+[9]: Wikipedia Contributors. <em>Velocity</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Velocity">https://en.wikipedia.org/wiki/Velocity</a>.
 
