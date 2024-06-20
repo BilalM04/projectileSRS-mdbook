@@ -5,4 +5,5 @@ multilingual = false
 src = "src"
 title = "Software Requirements Specification for Projectile"
 [output.html]
+smart-punctuation = true
 mathjax-support = true
