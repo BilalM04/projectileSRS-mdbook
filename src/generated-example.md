@@ -346,7 +346,7 @@ This section collects the laws and equations that will be used to build the inst
 |Units      |\\(\frac{\text{m}}{\text{s}}\\)                                                                                                                                                                                                                                                                                         |
 |Equation   |\\[v\text{(}t\text{)}={v^{\text{i}}}+{a^{c}} t\\]                                                                                                                                                                                                                                                                       |
 |Description|<ul><li>\\(v\text{(}t\text{)}\\) is the 1D speed (\\(\frac{\text{m}}{\text{s}}\\))</li><li>\\({v^{\text{i}}}\\) is the initial speed (\\(\frac{\text{m}}{\text{s}}\\))</li><li>\\({a^{c}}\\) is the constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\))</li><li>\\(t\\) is the time (\\({\text{s}}\\))</li></ul>|
-|Source     |[hibbeler2004](#hibbeler2004)(pg. 8)                                                                                                                                                                                                                                                                                    |
+|Source     |[hibbeler2004](#hibbeler2004) (pg. 8)                                                                                                                                                                                                                                                                                   |
 |RefBy      |[GD:velVec](#GD:velVec) and [GD:rectPos](#GD:rectPos)                                                                                                                                                                                                                                                                   |
 
 #### Detailed derivation of rectilinear velocity:
@@ -375,7 +375,7 @@ Performing the integration, we have the required equation:
 |Units      |\\({\text{m}}\\)                                                                                                                                                                                                                                                                                                                                                                    |
 |Equation   |\\[p\text{(}t\text{)}={p^{\text{i}}}+{v^{\text{i}}} t+\frac{{a^{c}} t^{2}}{2}\\]                                                                                                                                                                                                                                                                                                    |
 |Description|<ul><li>\\(p\text{(}t\text{)}\\) is the 1D position (\\({\text{m}}\\))</li><li>\\({p^{\text{i}}}\\) is the initial position (\\({\text{m}}\\))</li><li>\\({v^{\text{i}}}\\) is the initial speed (\\(\frac{\text{m}}{\text{s}}\\))</li><li>\\(t\\) is the time (\\({\text{s}}\\))</li><li>\\({a^{c}}\\) is the constant acceleration (\\(\frac{\text{m}}{\text{s}^{2}}\\))</li></ul>|
-|Source     |[hibbeler2004](#hibbeler2004)(pg. 8)                                                                                                                                                                                                                                                                                                                                                |
+|Source     |[hibbeler2004](#hibbeler2004) (pg. 8)                                                                                                                                                                                                                                                                                                                                               |
 |RefBy      |[GD:posVec](#GD:posVec)                                                                                                                                                                                                                                                                                                                                                             |
 
 #### Detailed derivation of rectilinear position:
@@ -852,37 +852,37 @@ This section contains the standard values that are used for calculations in Proj
 
 <div id="hibbeler2004"></div>
 
-[1]: Hibbeler, R. C. <em>Engineering Mechanics: Dynamics</em>. Pearson Prentice Hall, 2004. Print.
+[1]: Hibbeler, R. C. *Engineering Mechanics: Dynamics*. Pearson Prentice Hall, 2004. Print.
 
 <div id="koothoor2013"></div>
 
-[2]: Koothoor, Nirmitha. <em>A Document Driven Approach to Certifying Scientific Computing Software</em>. McMaster University, Hamilton, ON, Canada: 2013. Print.
+[2]: Koothoor, Nirmitha. *A Document Driven Approach to Certifying Scientific Computing Software*. McMaster University, Hamilton, ON, Canada: 2013. Print.
 
 <div id="parnasClements1986"></div>
 
-[3]: Parnas, David L. and Clements, P. C. "A rational design process: How and why to fake it." <em>IEEE Transactions on Software Engineering</em>, vol. 12, no. 2, Washington, USA: February, 1986. pp. 251&ndash;257. Print.
+[3]: Parnas, David L. and Clements, P. C. "A rational design process: How and why to fake it." *IEEE Transactions on Software Engineering*, vol. 12, no. 2, Washington, USA: February, 1986. pp. 251&ndash;257. Print.
 
 <div id="smithKoothoor2016"></div>
 
-[4]: Smith, W. Spencer and Koothoor, Nirmitha. "A Document-Driven Method for Certifying Scientific Computing Software for Use in Nuclear Safety Analysis." <em> Nuclear Engineering and Technology</em>, vol. 48, no. 2, April, 2016. <a href="http://www.sciencedirect.com/science/article/pii/S1738573315002582">http://www.sciencedirect.com/science/article/pii/S1738573315002582</a>. pp. 404&ndash;418.
+[4]: Smith, W. Spencer and Koothoor, Nirmitha. "A Document-Driven Method for Certifying Scientific Computing Software for Use in Nuclear Safety Analysis." * Nuclear Engineering and Technology*, vol. 48, no. 2, April, 2016. <http://www.sciencedirect.com/science/article/pii/S1738573315002582>. pp. 404&ndash;418.
 
 <div id="smithLai2005"></div>
 
-[5]: Smith, W. Spencer and Lai, Lei. "A new requirements template for scientific computing." <em>Proceedings of the First International Workshop on Situational Requirements Engineering Processes - Methods, Techniques and Tools to Support Situation-Specific Requirements Engineering Processes, SREP'05</em>. Edited by PJ Agerfalk, N. Kraiem, and J. Ralyte, Paris, France: 2005. pp. 107&ndash;121. In conjunction with 13th IEEE International Requirements Engineering Conference,
+[5]: Smith, W. Spencer and Lai, Lei. "A new requirements template for scientific computing." *Proceedings of the First International Workshop on Situational Requirements Engineering Processes - Methods, Techniques and Tools to Support Situation-Specific Requirements Engineering Processes, SREP'05*. Edited by PJ Agerfalk, N. Kraiem, and J. Ralyte, Paris, France: 2005. pp. 107&ndash;121. In conjunction with 13th IEEE International Requirements Engineering Conference,
 
 <div id="smithEtAl2007"></div>
 
-[6]: Smith, W. Spencer, Lai, Lei, and Khedri, Ridha. "Requirements Analysis for Engineering Computation: A Systematic Approach for Improving Software Reliability." <em>Reliable Computing, Special Issue on Reliable Engineering Computation</em>, vol. 13, no. 1, February, 2007. <a href="https://doi.org/10.1007/s11155-006-9020-7">https://doi.org/10.1007/s11155-006-9020-7</a>. pp. 83&ndash;107.
+[6]: Smith, W. Spencer, Lai, Lei, and Khedri, Ridha. "Requirements Analysis for Engineering Computation: A Systematic Approach for Improving Software Reliability." *Reliable Computing, Special Issue on Reliable Engineering Computation*, vol. 13, no. 1, February, 2007. <https://doi.org/10.1007/s11155-006-9020-7>. pp. 83&ndash;107.
 
 <div id="accelerationWiki"></div>
 
-[7]: Wikipedia Contributors. <em>Acceleration</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Acceleration">https://en.wikipedia.org/wiki/Acceleration</a>.
+[7]: Wikipedia Contributors. *Acceleration*. June, 2019. <https://en.wikipedia.org/wiki/Acceleration>.
 
 <div id="cartesianWiki"></div>
 
-[8]: Wikipedia Contributors. <em>Cartesian coordinate system</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system">https://en.wikipedia.org/wiki/Cartesian_coordinate_system</a>.
+[8]: Wikipedia Contributors. *Cartesian coordinate system*. June, 2019. <https://en.wikipedia.org/wiki/Cartesian_coordinate_system>.
 
 <div id="velocityWiki"></div>
 
-[9]: Wikipedia Contributors. <em>Velocity</em>. June, 2019. <a href="https://en.wikipedia.org/wiki/Velocity">https://en.wikipedia.org/wiki/Velocity</a>.
+[9]: Wikipedia Contributors. *Velocity*. June, 2019. <https://en.wikipedia.org/wiki/Velocity>.
 
